@@ -40,7 +40,7 @@ public class Main {
             System.out.println("Attempts: " + attemptsNumber+"/"+maxAttempts);
         }else{
             System.out.println("Attempts: " + attemptsNumber+"/"+maxAttempts);
-            System.out.println("You lost :(");
+            System.out.println("Game over :(");
         }
 
     }
