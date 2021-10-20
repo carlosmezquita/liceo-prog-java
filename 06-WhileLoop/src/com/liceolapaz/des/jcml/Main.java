@@ -51,7 +51,7 @@ public class Main {
     }
 
     private static void reqMaxAttempts() {
-        System.out.print("Type the maximum number of attempts: ");
+        System.out.print("Type a maximum number of attempts: ");
     }
 
     private static int readNumber() {
@@ -60,6 +60,6 @@ public class Main {
     }
 
     private static void reqMainNumber() {
-        System.out.print("Type the number to be guessed between 1 and 10: ");
+        System.out.print("Type a number to be guessed between 1 and 10: ");
     }
 }
