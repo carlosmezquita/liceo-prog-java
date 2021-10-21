@@ -11,7 +11,6 @@ public class Main {
         //read the numbers
         int counter = 0;
         do{
-
             numbers[counter] = readNumber();
             counter++;
         }while(counter < 10);
@@ -20,6 +19,7 @@ public class Main {
         //print result
         printResult(sumNumber);
     }
+
 
     private static void printResult(int sumNumber) {
         System.out.println("The sum of the numbers equals "+sumNumber);
