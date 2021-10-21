@@ -56,9 +56,9 @@ public class Main {
                 System.out.println("Game over, the number was: " +randomNumber);
             }
             else if (randomNumber > numberGuess){
-                System.out.println("The number it's bigger.");
+                System.out.println("The number to be guessed it's bigger than "+ numberGuess);
             }else if(randomNumber < numberGuess) {
-                System.out.println("The number it's smaller.");
+                System.out.println("The number to be guessed it's smaller than "+ numberGuess);
             }
             }
 
