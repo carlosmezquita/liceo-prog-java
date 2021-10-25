@@ -16,20 +16,26 @@ public class Main {
         //Run option
         runOption(option);
     }
-
+    private static void printMenu() {
+        System.out.println("\nMAIN MENU:\n" +
+                "1. From 1 to 10 (3 attempts)\n" +
+                "2. From 1 to 50 (5 attempts)\n" +
+                "0. Exit");
+        System.out.print("Choose an option: ");
+    }
+    private static int readOption() {
+        Scanner scanner = new Scanner(System.in);
+        return scanner.nextInt();
+    }
     private static void runOption(int option) {
         switch (option) {
-            case 0:
-                break;
-            case 1:
-                easyGame();
-                break;
-            case 2:
-                hardGame();
-                break;
-            default:
+            case 0 -> System.exit(0);
+            case 1 -> easyGame();
+            case 2 -> hardGame();
+            default -> {
                 System.out.println("Error. Unexpected value.");
                 menu();
+            }
         }
     }
 
@@ -80,16 +86,7 @@ public class Main {
         printMenu();
     }
 
-    private static int readOption() {
-        Scanner scanner = new Scanner(System.in);
-        return scanner.nextInt();
-    }
 
-    private static void printMenu() {
-        System.out.println("\nMAIN MENU:\n" +
-                "1. From 1 to 10 (3 attempts)\n" +
-                "2. From 1 to 50 (5 attempts)\n" +
-                "0. Exit");
-        System.out.print("Choose an option: ");
-    }
+
+
 }

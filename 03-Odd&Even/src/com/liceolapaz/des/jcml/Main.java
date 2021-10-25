@@ -13,7 +13,7 @@ public class Main {
     }
 
     private static void typeMessage(int number) {
-        //Storage the message in a variable
+        //Store the message in a variable
         String message = (number == 0) ?
         "The number is either odd or even":
          (number % 2 == 0) ?
