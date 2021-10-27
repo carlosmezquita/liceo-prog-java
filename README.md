@@ -1,2 +1,2 @@
 # liceo-prog-java
-Ejemplos de Java - Programación - Liceo La Paz
+Ejemplos de Java - Programación - CPR Liceo La Paz
