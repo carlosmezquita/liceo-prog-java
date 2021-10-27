@@ -85,8 +85,4 @@ public class Main {
         Game(randomNumber, maxAttempts);
         printMenu();
     }
-
-
-
-
 }
