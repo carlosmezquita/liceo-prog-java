@@ -1,3 +1,5 @@
+package com.liceolapaz.des.jcml;
+
 import java.util.Scanner;
 
 public class Main {
