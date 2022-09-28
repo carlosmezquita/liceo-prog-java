@@ -30,9 +30,9 @@ public class Main {
     private static void runOption(int option) {
         switch (option) {
             case 0 -> System.exit(0);
-            case 1 -> convertor("U.S. Dollar", 0.86);
-            case 2 -> convertor("Sterling Pound", 1.19);
-            case 3 -> convertor("Japanese Yen", 0.0075);
+            case 1 -> converter("U.S. Dollar", 0.86);
+            case 2 -> converter("Sterling Pound", 1.19);
+            case 3 -> converter("Japanese Yen", 0.0075);
             default -> {
                 System.out.println("Error. Unexpected value.");
                 menu();
@@ -40,7 +40,7 @@ public class Main {
         }
     }
 
-    private static void convertor(String curr, double v) {
+    private static void converter(String curr, double v) {
         System.out.println("Currency selected: " + curr);
         System.out.print("Please enter the value to be converted: ");
         float value = new Scanner(System.in).nextFloat();
